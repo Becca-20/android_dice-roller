@@ -2,7 +2,6 @@ package com.example.diceroller
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -20,9 +19,16 @@ class MainActivity : AppCompatActivity() {
 //            // lines 15 + 16 can be simplified to the below:
 //            // Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
 
-            val resultTextView: TextView = findViewById(R.id.textView)
-            resultTextView.text = "6"
+            // Static textView when dice is rolled
+//            val resultTextView: TextView = findViewById(R.id.textView)
+//            resultTextView.text = "6"
+
+            rollDice()
         }
+    }
+
+    private fun rollDice() {
+        TODO("Not yet implemented")
     }
 }
 
